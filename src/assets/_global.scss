@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+body {
+    background-color: #f1f5f8;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #118ab2;
+
+    &:hover {
+        color: #05668d;
+    }
+}
